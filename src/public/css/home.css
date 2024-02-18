@@ -1,0 +1,45 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body html
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2
+{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,0);
+    font-size: 30px;
+    font-weight: 700;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.buttons button
+{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px gray;
+    font-size: 20px;
+    font-weight: 400;
+}
